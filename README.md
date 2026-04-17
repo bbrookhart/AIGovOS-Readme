@@ -1,5 +1,3 @@
-# AIGovOS
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1E293B,75:2563EB,100:38BDF8&height=240&section=header&text=AIGovOS&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Governance%20Operating%20System&descAlignY=58&descAlign=50" alt="AIGovOS banner" />
 </p>
@@ -9,7 +7,7 @@
 </p>
 
 <p align="center">
-  A portfolio-grade governance engineering platform that demonstrates how AI oversight can be implemented as a real workflow system rather than treated as policy text, slideware, or disconnected review checklists.
+  A portfolio-grade governance engineering platform that demonstrates how AI oversight can be implemented as a real workflow system — not policy text, slideware, or disconnected review checklists.
 </p>
 
 <p align="center">
@@ -21,97 +19,88 @@
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Why This Project Exists](#why-this-project-exists)
+- [Core Value Proposition](#core-value-proposition)
+- [Technology Stack](#technology-stack)
+- [What AIGovOS Does](#what-aigovos-does)
+- [Design Principles](#design-principles)
+- [v1 Scope](#v1-scope)
+- [Governance Workflow](#governance-workflow)
+- [Core Actors](#core-actors)
+- [Core Objects](#core-objects)
+- [Architecture](#architecture)
+- [Demo Scenarios](#demo-scenarios)
+- [Key Features](#key-features)
+- [Repository Structure](#repository-structure)
+- [Local Development](#local-development)
+- [Roadmap](#roadmap)
+- [Definition of Done for v1](#definition-of-done-for-v1)
+- [Portfolio Positioning](#portfolio-positioning)
+- [License](#license)
+
+---
+
 ## Overview
 
 AIGovOS is an **AI governance operating system** built to show how organizations can move from abstract principles to concrete governance workflows.
 
-Instead of treating AI governance as a static policy artifact, AIGovOS treats it as an operational discipline with:
+Instead of treating AI governance as a static policy artifact, AIGovOS treats it as an operational discipline covering:
 
-- system inventory
-- structured use-case intake
-- risk classification
-- control assignment
-- accountable ownership
-- evidence attachment
-- approval decisions
-- auditability
-- exportable governance summaries
+- System inventory
+- Structured use-case intake
+- Risk classification
+- Control assignment
+- Accountable ownership
+- Evidence attachment
+- Approval decisions
+- Auditability
+- Exportable governance summaries
 
-This project is designed to signal capability in:
-
-- AI governance
-- ethical GRC
-- AI risk management
-- governance workflow design
-- control engineering
-- evidence management
-- approval systems
-- auditable oversight
-- operational responsible AI
+This project is designed to signal capability across AI governance, ethical GRC, AI risk management, governance workflow design, control engineering, evidence management, approval systems, auditable oversight, and operational responsible AI.
 
 ---
 
 ## Why This Project Exists
 
-Most organizations do not fail AI governance because they lack principles.
+Most organizations do not fail AI governance because they lack principles. They fail because they lack:
 
-They fail because they lack:
+- An accurate inventory of AI systems
+- A repeatable intake process for new AI use cases
+- Clear owners and reviewers
+- Consistent risk tiering
+- Mapped control requirements
+- Structured evidence collection
+- Formal approval records
+- Audit-ready decision history
 
-- an accurate inventory of AI systems
-- a repeatable intake process for new AI use cases
-- clear owners and reviewers
-- consistent risk tiering
-- mapped control requirements
-- structured evidence collection
-- formal approval records
-- audit-ready decision history
-
-AIGovOS exists to close that gap.
-
-It is built to demonstrate that modern AI governance is not just policy writing.  
-It is the design of systems that can:
-
-- classify AI use
-- assign responsibility
-- require controls
-- preserve rationale
-- record decisions
-- prove governance happened
+AIGovOS exists to close that gap. It demonstrates that modern AI governance is not just policy writing — it is the design of systems that can classify AI use, assign responsibility, require controls, preserve rationale, record decisions, and prove governance happened.
 
 ---
 
 ## Core Value Proposition
 
-AIGovOS operationalizes governance as a workflow system of record.
+AIGovOS operationalizes governance as a workflow system of record. It allows a team to:
 
-It allows a team to:
+1. Register an AI system
+2. Define how that system will be used
+3. Assess the governance risk of that use
+4. Determine what controls are required
+5. Attach evidence supporting approval
+6. Approve, conditionally approve, reject, or archive
+7. Preserve an audit trail of who did what and why
+8. Export a governance summary for review or audit
 
-1. register an AI system
-2. define how that system will be used
-3. assess the governance risk of that use
-4. determine what controls are required
-5. attach evidence supporting approval
-6. approve, conditionally approve, reject, or archive
-7. preserve an audit trail of who did what and why
-8. export a governance summary for review or audit
-
-This makes AIGovOS directly relevant to roles and functions involving:
-
-- Responsible AI
-- AI governance
-- AI assurance
-- technology risk
-- ethical GRC
-- AI policy operationalization
-- digital trust
-- compliance engineering
-- regulated AI oversight
+This makes AIGovOS directly relevant to Responsible AI, AI governance, AI assurance, technology risk, ethical GRC, AI policy operationalization, digital trust, compliance engineering, and regulated AI oversight.
 
 ---
 
 ## Technology Stack
 
-## Frontend
+### Frontend
+
 <p>
   <img src="https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -119,7 +108,8 @@ This makes AIGovOS directly relevant to roles and functions involving:
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-## Backend
+### Backend
+
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -128,7 +118,8 @@ This makes AIGovOS directly relevant to roles and functions involving:
   <img src="https://img.shields.io/badge/Alembic-222222?style=for-the-badge&logo=python&logoColor=white" alt="Alembic" />
 </p>
 
-## Data and Infrastructure
+### Data & Infrastructure
+
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -136,7 +127,8 @@ This makes AIGovOS directly relevant to roles and functions involving:
   <img src="https://img.shields.io/badge/Makefile-1D3557?style=for-the-badge&logo=gnu&logoColor=white" alt="Makefile" />
 </p>
 
-## API and Engineering
+### API & Engineering
+
 <p>
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
   <img src="https://img.shields.io/badge/Monorepo-111827?style=for-the-badge" alt="Monorepo" />
@@ -150,21 +142,21 @@ This makes AIGovOS directly relevant to roles and functions involving:
 ## What AIGovOS Does
 
 | Capability | Description |
-|---|---|
-| AI Asset Registry | Tracks governed AI systems, models, assistants, tools, and automations |
-| Use-Case Intake | Captures intended purpose, operating context, exposure type, data sensitivity, and oversight |
-| Risk Tiering | Applies deterministic governance rules to classify use-case scrutiny |
-| Control Mapping | Assigns required governance controls based on risk and context |
-| Evidence Tracking | Links supporting artifacts, notes, and review materials to decisions |
-| Approval Workflow | Supports approval, conditional approval, rejection, and archival |
-| Audit Trail | Records material workflow actions and rationale |
-| Governance Export | Produces structured governance summaries for audit or stakeholder review |
+| --- | --- |
+| **AI Asset Registry** | Tracks governed AI systems, models, assistants, tools, and automations |
+| **Use-Case Intake** | Captures intended purpose, operating context, exposure type, data sensitivity, and oversight |
+| **Risk Tiering** | Applies deterministic governance rules to classify use-case scrutiny |
+| **Control Mapping** | Assigns required governance controls based on risk and context |
+| **Evidence Tracking** | Links supporting artifacts, notes, and review materials to decisions |
+| **Approval Workflow** | Supports approval, conditional approval, rejection, and archival |
+| **Audit Trail** | Records material workflow actions and rationale |
+| **Governance Export** | Produces structured governance summaries for audit or stakeholder review |
 
 ---
 
 ## Design Principles
 
-AIGovOS is intentionally built around a small set of strong design principles:
+AIGovOS is built around a small set of strong design principles:
 
 - **Governance before analytics**
 - **Workflow before dashboard**
@@ -178,31 +170,31 @@ AIGovOS is intentionally built around a small set of strong design principles:
 
 ## v1 Scope
 
-AIGovOS v1 includes:
+### In Scope
 
 - AI asset registry
-- use-case intake
-- owner assignment
-- deterministic risk tiering
-- control mapping
-- approval workflow
-- evidence artifact tracking
-- audit event logging
-- exportable governance summary
+- Use-case intake
+- Owner assignment
+- Deterministic risk tiering
+- Control mapping
+- Approval workflow
+- Evidence artifact tracking
+- Audit event logging
+- Exportable governance summary
 
 ### Out of Scope for v1
 
 To keep the first release tight, credible, and portfolio-ready, v1 does **not** include:
 
-- vendor due diligence workflows
-- automated model benchmarking
-- prompt injection testing
-- incident and harm management
-- procurement approvals
-- executive dashboards
-- real-time production enforcement
-- multi-tenant SaaS isolation
-- advanced notification or escalation systems
+- Vendor due diligence workflows
+- Automated model benchmarking
+- Prompt injection testing
+- Incident and harm management
+- Procurement approvals
+- Executive dashboards
+- Real-time production enforcement
+- Multi-tenant SaaS isolation
+- Advanced notification or escalation systems
 
 ---
 
@@ -228,55 +220,57 @@ Review and Decide
 Record Audit Trail
         ↓
 Export Governance Summary
+```
 
-Supported Workflow States
-Draft
-Submitted
-Under Review
-Approved
-Approved with Conditions
-Rejected
-Archived
+### Supported Workflow States
+
+- `Draft`
+- `Submitted`
+- `Under Review`
+- `Approved`
+- `Approved with Conditions`
+- `Rejected`
+- `Archived`
 
 This keeps governance state explicit, reviewable, and easy to explain.
 
-Core Actors
-System Owner
+---
 
-Accountable for the AI asset and its intended use.
+## Core Actors
 
-Reviewer
+| Actor | Responsibility |
+| --- | --- |
+| **System Owner** | Accountable for the AI asset and its intended use |
+| **Reviewer** | Validates use-case information, assesses risk, reviews controls, and checks evidence |
+| **Approver** | Issues the final governance disposition |
+| **Auditor** | Reviews records, rationale, and traceability without changing workflow state |
+| **Admin** | Maintains controls, platform configuration, and governance reference data |
 
-Validates use-case information, assesses risk, reviews controls, and checks evidence.
+---
 
-Approver
-
-Issues the final governance disposition.
-
-Auditor
-
-Reviews records, rationale, and traceability without changing workflow state.
-
-Admin
-
-Maintains controls, platform configuration, and governance reference data.
-
-Core Objects
+## Core Objects
 
 AIGovOS centers on a small set of governance objects:
 
-Object	Purpose
-AI Asset	A governed system, model, assistant, or automation
-Use Case	A specific proposed or active use of an AI asset
-Owner	The accountable actor in the workflow
-Risk Assessment	Structured governance risk record with rationale
-Control	A governance requirement that applies based on context
-Control Mapping	The relationship between a use case and required controls
-Approval Decision	Formal governance disposition and rationale
-Evidence Artifact	Supporting documentation or linked proof
-Audit Event	Append-only record of material workflow activity
-Architecture
-High-Level System View
+| Object | Purpose |
+| --- | --- |
+| **AI Asset** | A governed system, model, assistant, or automation |
+| **Use Case** | A specific proposed or active use of an AI asset |
+| **Owner** | The accountable actor in the workflow |
+| **Risk Assessment** | Structured governance risk record with rationale |
+| **Control** | A governance requirement that applies based on context |
+| **Control Mapping** | The relationship between a use case and required controls |
+| **Approval Decision** | Formal governance disposition and rationale |
+| **Evidence Artifact** | Supporting documentation or linked proof |
+| **Audit Event** | Append-only record of material workflow activity |
+
+---
+
+## Architecture
+
+### High-Level System View
+
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │                           AIGovOS                            │
 ├──────────────────────────────────────────────────────────────┤
@@ -284,96 +278,105 @@ High-Level System View
 │ Next.js • React • TypeScript • Tailwind CSS                  │
 │                                                              │
 │ - AI asset registry                                          │
-│ - use-case intake                                            │
-│ - reviewer workflow                                          │
-│ - approval panel                                             │
-│ - evidence views                                             │
-│ - audit history                                              │
+│ - Use-case intake                                            │
+│ - Reviewer workflow                                          │
+│ - Approval panel                                             │
+│ - Evidence views                                             │
+│ - Audit history                                              │
 ├──────────────────────────────────────────────────────────────┤
 │ API Service                                                  │
 │ FastAPI • Python • Pydantic • SQLAlchemy • Alembic           │
 │                                                              │
-│ - request validation                                         │
-│ - persistence                                                │
-│ - risk tiering                                               │
-│ - control selection                                          │
-│ - approval validation                                        │
-│ - audit event creation                                       │
-│ - governance summary export                                  │
+│ - Request validation                                         │
+│ - Persistence                                                │
+│ - Risk tiering                                               │
+│ - Control selection                                          │
+│ - Approval validation                                        │
+│ - Audit event creation                                       │
+│ - Governance summary export                                  │
 ├──────────────────────────────────────────────────────────────┤
 │ Database                                                     │
 │ PostgreSQL                                                   │
 │                                                              │
-│ - workflow state                                             │
-│ - governance objects                                         │
-│ - approval history                                           │
-│ - audit records                                              │
+│ - Workflow state                                             │
+│ - Governance objects                                         │
+│ - Approval history                                           │
+│ - Audit records                                              │
 └──────────────────────────────────────────────────────────────┘
-Architecture Philosophy
+```
 
-The frontend is responsible for workflow presentation.
-The backend is responsible for governance truth.
+### Architecture Philosophy
+
+The frontend is responsible for **workflow presentation**. The backend is responsible for **governance truth**.
 
 That means:
 
-the frontend renders forms, lists, and actions
-the backend decides risk tiering
-the backend assigns required controls
-the backend validates approval preconditions
-the backend creates authoritative audit events
+- The frontend renders forms, lists, and actions
+- The backend decides risk tiering
+- The backend assigns required controls
+- The backend validates approval preconditions
+- The backend creates authoritative audit events
 
 This preserves integrity, testability, and a stronger governance signal.
 
-Why This Architecture Matters
+### Why This Architecture Matters
 
-AIGovOS is not an inference product. It is a governance system.
+AIGovOS is not an inference product — it is a governance system. That changes the architectural priorities. The most important integrity concerns are:
 
-That changes the architectural priorities.
+- Broken access control
+- Unauthorized approval
+- Workflow bypass
+- Audit log integrity
+- Evidence tampering
+- Export overexposure
+- Traceable actor identity
 
-The most important integrity concerns are:
+Because of that, the backend is designed to own workflow state transitions, approval validation, control selection, and audit creation. That is what makes the project credible from a governance and GRC perspective.
 
-broken access control
-unauthorized approval
-workflow bypass
-audit log integrity
-evidence tampering
-export overexposure
-traceable actor identity
+---
 
-Because of that, the backend is designed to own:
-
-workflow state transitions
-approval validation
-control selection
-audit creation
-
-That is what makes the project feel credible from a governance and GRC perspective.
-
-Demo Scenarios
+## Demo Scenarios
 
 AIGovOS is designed around three demo scenarios that create a strong narrative arc.
 
-1. Internal Meeting Summarizer
+### 1. Internal Meeting Summarizer
 
 A low-risk internal productivity workflow.
 
-Why it matters: shows proportional governance for ordinary internal AI use.
+> **Why it matters:** Shows proportional governance for ordinary internal AI use.
 
-2. Creator Support Chatbot
+### 2. Creator Support Chatbot
 
 A medium-risk external-facing assistant.
 
-Why it matters: shows stronger review, evidence, and conditional approval for public-facing AI.
+> **Why it matters:** Shows stronger review, evidence, and conditional approval for public-facing AI.
 
-3. Synthetic Voice Rights Review Tool
+### 3. Synthetic Voice Rights Review Tool
 
 A high-scrutiny governance scenario tied to synthetic identity, likeness, and creative rights.
 
-Why it matters: differentiates the portfolio by showing how AIGovOS can support serious review of sensitive AI uses with legal, ethical, and reputational stakes.
+> **Why it matters:** Differentiates the portfolio by showing how AIGovOS can support serious review of sensitive AI uses with legal, ethical, and reputational stakes.
 
-Key Features
-<table> <tr> <td><strong>Inventory</strong></td> <td>Track AI systems, capabilities, and governed assets in a central registry.</td> </tr> <tr> <td><strong>Intake</strong></td> <td>Capture intended purpose, deployment context, exposure type, affected users, and oversight details.</td> </tr> <tr> <td><strong>Risk Tiering</strong></td> <td>Apply explainable governance rules to classify use-case scrutiny.</td> </tr> <tr> <td><strong>Control Mapping</strong></td> <td>Assign required controls based on use-case attributes and risk tier.</td> </tr> <tr> <td><strong>Evidence</strong></td> <td>Attach supporting documentation, notes, disclosures, and safeguards summaries.</td> </tr> <tr> <td><strong>Approvals</strong></td> <td>Issue formal decisions with rationale, including conditional approvals.</td> </tr> <tr> <td><strong>Auditability</strong></td> <td>Record material workflow actions and preserve decision traceability.</td> </tr> <tr> <td><strong>Exports</strong></td> <td>Generate governance summaries for internal review or audit preparation.</td> </tr> </table>
-Repository Structure
+---
+
+## Key Features
+
+| Feature | Description |
+| --- | --- |
+| **Inventory** | Track AI systems, capabilities, and governed assets in a central registry |
+| **Intake** | Capture intended purpose, deployment context, exposure type, affected users, and oversight details |
+| **Risk Tiering** | Apply explainable governance rules to classify use-case scrutiny |
+| **Control Mapping** | Assign required controls based on use-case attributes and risk tier |
+| **Evidence** | Attach supporting documentation, notes, disclosures, and safeguards summaries |
+| **Approvals** | Issue formal decisions with rationale, including conditional approvals |
+| **Auditability** | Record material workflow actions and preserve decision traceability |
+| **Exports** | Generate governance summaries for internal review or audit preparation |
+
+---
+
+## Repository Structure
+
+```text
 aigovos/
 ├── README.md
 ├── LICENSE
@@ -401,129 +404,169 @@ aigovos/
     ├── ui/
     ├── config/
     └── types/
-Planned API Capabilities
+```
+
+### Planned API Capabilities
 
 The API will support:
 
-AI asset CRUD
-use-case creation and submission
-risk assessment retrieval and recomputation
-control mapping generation
-evidence artifact management
-approval decisions
-audit event queries
-exportable governance summaries
-Backend Responsibilities
+- AI asset CRUD
+- Use-case creation and submission
+- Risk assessment retrieval and recomputation
+- Control mapping generation
+- Evidence artifact management
+- Approval decisions
+- Audit event queries
+- Exportable governance summaries
+
+### Backend Responsibilities
 
 The backend is the authoritative layer for:
 
-workflow transitions
-risk logic
-control enforcement
-approval validation
-audit generation
+- Workflow transitions
+- Risk logic
+- Control enforcement
+- Approval validation
+- Audit generation
 
-This is a deliberate design choice.
-Governance decisions should not depend on frontend logic.
+This is a deliberate design choice. Governance decisions should not depend on frontend logic.
 
-Screenshots
+---
 
-Add screenshots here once the first end-to-end workflow is implemented.
+## Screenshots
 
-Recommended screenshot sections:
+> _Screenshots will be added here once the first end-to-end workflow is implemented._
 
-dashboard
-AI asset registry
-use-case intake form
-risk assessment panel
-control mapping view
-approval panel
-audit trail
-export summary
-Local Development
-Prerequisites
-Node.js
-pnpm
-Python 3.11+
-Docker
-Docker Compose
-Planned Setup
+Planned screenshot sections:
+
+- Dashboard
+- AI asset registry
+- Use-case intake form
+- Risk assessment panel
+- Control mapping view
+- Approval panel
+- Audit trail
+- Export summary
+
+---
+
+## Local Development
+
+### Prerequisites
+
+- Node.js
+- pnpm
+- Python 3.11+
+- Docker
+- Docker Compose
+
+### Planned Setup
+
+```bash
 cp .env.example .env
 docker compose up -d postgres
 pnpm install
 make dev
-Planned Service URLs
-Web app: http://localhost:3000
-API: http://localhost:8000
-OpenAPI docs: http://localhost:8000/docs
-Roadmap
-v1
-AI asset registry
-use-case intake
-risk tiering
-control mapping
-approvals
-evidence metadata
-audit log
-exports
-v1.1
-file upload support
-PDF exports
-notification layer
-stronger RBAC
-v2
-vendor AI risk module
-incident and near-miss register
-policy exception workflows
-executive governance reporting
-domain-specific governance profiles
-Definition of Done for v1
+```
+
+### Planned Service URLs
+
+| Service | URL |
+| --- | --- |
+| Web app | `http://localhost:3000` |
+| API | `http://localhost:8000` |
+| OpenAPI docs | `http://localhost:8000/docs` |
+
+---
+
+## Roadmap
+
+### v1
+
+- AI asset registry
+- Use-case intake
+- Risk tiering
+- Control mapping
+- Approvals
+- Evidence metadata
+- Audit log
+- Exports
+
+### v1.1
+
+- File upload support
+- PDF exports
+- Notification layer
+- Stronger RBAC
+
+### v2
+
+- Vendor AI risk module
+- Incident and near-miss register
+- Policy exception workflows
+- Executive governance reporting
+- Domain-specific governance profiles
+
+---
+
+## Definition of Done for v1
 
 AIGovOS v1 is complete when a user can:
 
-register an AI asset
-create a use case
-assign ownership
-calculate a risk tier
-generate required controls
-attach supporting evidence
-issue a decision with rationale
-inspect the audit trail
-export a governance summary
-Portfolio Positioning
+- [x] Register an AI asset
+- [x] Create a use case
+- [x] Assign ownership
+- [x] Calculate a risk tier
+- [x] Generate required controls
+- [x] Attach supporting evidence
+- [x] Issue a decision with rationale
+- [x] Inspect the audit trail
+- [x] Export a governance summary
 
-AIGovOS is built to show that AI governance is not just documentation.
+---
 
-It is the design of systems that can:
+## Portfolio Positioning
 
-classify AI use
-assign responsibility
-enforce governance expectations
-preserve evidence
-record why something was approved
-demonstrate what happened, when, and by whom
+AIGovOS is built to show that AI governance is not just documentation. It is the design of systems that can:
 
-That is the difference between policy awareness and governance engineering.
+- Classify AI use
+- Assign responsibility
+- Enforce governance expectations
+- Preserve evidence
+- Record why something was approved
+- Demonstrate what happened, when, and by whom
 
-Future Expansion Areas
+That is the difference between **policy awareness** and **governance engineering**.
+
+### Future Expansion Areas
 
 The current design intentionally leaves room for later modules such as:
 
-third-party AI risk and procurement review
-incident and harm register
-policy exception workflows
-executive governance reporting
-domain-specific governance overlays
-creative-IP and digital replica governance profiles
-Author
+- Third-party AI risk and procurement review
+- Incident and harm register
+- Policy exception workflows
+- Executive governance reporting
+- Domain-specific governance overlays
+- Creative-IP and digital replica governance profiles
+
+---
+
+## Author
 
 Built as a portfolio and governance-engineering project focused on:
 
-AI governance
-ethical GRC
-auditable decision systems
-operational responsible AI
-governance workflow design
-License
+- AI governance
+- Ethical GRC
+- Auditable decision systems
+- Operational responsible AI
+- Governance workflow design
 
-This project is licensed under the MIT License.
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,25:2563EB,55:1E293B,100:0F172A&height=120&section=footer" alt="footer" />
+</p>
